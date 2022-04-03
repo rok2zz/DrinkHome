@@ -26,6 +26,7 @@ header{
 .top{
     height: 50px;
     width: 100%;
+    background-color:rgb(255, 252, 247);
 }
 
 .logo{
@@ -33,6 +34,7 @@ header{
     height: 50px;
     width: 500px;
     z-index: 1;
+
 }
 .logo>li{
     float:left;
@@ -109,68 +111,150 @@ header{
     left:50%;
     top: 50%;
 }
-
 .contents{
-    float: left;
-    height: 300px;
     width: 100%;
-    background-color: rgb(255, 252, 247)
+    height: 1500px;
 }
 
-.contents>li{
+.intro{
     float: left;
-    width: 100px;
-    line-height: 30px;
-    margin-left: 10px;
-}
-.contents>li.active div{
-    margin-left: 10px;
-    width: 400px;
-    height: 165px;
-    border: 2px solid #dddddd;
-    z-index: 1;
-}
-.contents>li.active2{
-    margin-left: 500px;
-}
-.contents>li.active2 div{
-    margin-right: 10px;
-    width: 400px;
-    height: 165px;
-    border: 2px solid #dddddd;
-    z-index: 1;
-}
-.notice ul{
-    float: left;
-    width: 400px;
-    margin-top: 12px;
-    margin-bottom: 12px;
-}
-
-.notice li{
-    height: 30px;
-    font-size: 15px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.notice li:nth-child(2n){
-    background-color: #cccccc;
+    height: 50px;
+    width: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    --antd-wave-shadow-color: #1890ff;
+    --scroll-bar: 0;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    font-feature-settings: "tnum","tnum";
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    color: rgb(112, 112, 112);
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Spoqa Han Sans Neo","sans-serif";
+    box-sizing: border-box;
+    margin-top: 60px;
+    margin-bottom: 200px;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    --antd-wave-shadow-color: #1890ff;
+    --scroll-bar: 0;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    font-feature-settings: "tnum","tnum";
+    -webkit-font-smoothing: antialiased;
+    font-family: "Spoqa Han Sans Neo","sans-serif";
+    box-sizing: border-box;
+    position: relative;
+    padding-bottom: 250px;
+    text-align: center;
+    color: rgb(112, 112, 112);
+    font-weight: 400;
+    font-size: 20px;
 }
 
-.notice li span{
-    float: right;
-}
-
-.notice li:hover{
+.intro>div{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    --antd-wave-shadow-color: #1890ff;
+    --scroll-bar: 0;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    font-feature-settings: "tnum","tnum";
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    color: rgb(112, 112, 112);
     font-weight: bold;
+    font-size: 30px;
+    font-family: "Spoqa Han Sans Neo","sans-serif";
+    box-sizing: border-box;
 }
 
-.slider{
-    float: left;
-    width : 400px;
-    height : 200px;
+
+.btn{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    --antd-wave-shadow-color: #1890ff;
+    --scroll-bar: 0;
+    font-feature-settings: "tnum","tnum";
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    font-family: inherit;
+    overflow: visible;
+    text-transform: none;
+    box-sizing: border-box;
+    line-height: 1.5715;
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+    text-align: center;
+    cursor: pointer;
+    transition: all .3s cubic-bezier(.645,.045,.355,1);
+    user-select: none;
+    touch-action: manipulation;
+    padding: 4px 15px;
+    outline: 0;
+    background: #1890ff;
+    box-shadow: 0 2px 0 rgba(0,0,0,.045);
+    background-color: rgb(244, 187, 95);
+    border: 1px solid rgb(244, 187, 95);
+    color: white;
+    font-weight: bold;
+    text-shadow: rgba(0, 0, 0, 0.12) 0px -1px 0px;
+    border-radius: 10px;
+    -webkit-appearance: button;
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
+
+.btn:hover{
+    background-color: #ffffff;
+}
+.key-points{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    --antd-wave-shadow-color: #1890ff;
+    --scroll-bar: 0;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    font-feature-settings: "tnum","tnum";
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    font-family: "Spoqa Han Sans Neo","sans-serif";
+    box-sizing: border-box;
+    font-size: 25px;
+    color: rgb(244, 187, 95);
+    font-weight: bold;
+    margin: 15px 0px;
+}
+
+.primarybold{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    --antd-wave-shadow-color: #1890ff;
+    --scroll-bar: 0;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    font-feature-settings: "tnum","tnum";
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    font-family: "Spoqa Han Sans Neo","sans-serif";
+    box-sizing: border-box;
+    font-size: 30px;
+    color: rgb(244, 187, 95);
+    font-weight: bold;
+    margin: 15px 0px;
+}
+
+.pass{
+    height: 300px;
+}
+
+
 .bt{
     float: left;
     height: 300px;
@@ -222,4 +306,38 @@ header{
 
 .information2{
     margin-top: 10px;
+}
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    z-index: -1;
+    opacity: 0;
+}
+
+.window {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);
+    width: 500px;
+    height: 500px;
+    transform: translate(-50%, -40%);
+}
+
+.show .popup {
+    transform: translate(-50%, -50%);
+    transition: all .5s;
 }

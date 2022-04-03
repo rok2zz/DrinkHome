@@ -1,15 +1,13 @@
 <!DOCTYPE html>
-<html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>주류 구독 서비스</title>
+    <title>DrinkHome</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="javascript/jquery-1.12.3.js"></script>
     <script src="javascript/script.js" defer type="text/javascript"></script>
 </head>
-    
 <body>
     <header>
         <div class="top">
@@ -21,14 +19,14 @@
                 </li>   
                 <li>
                     <a href="index.html">
-                        <h2><b>Just Drink</b></h2>
+                        <h2><b>DrinkHome</b></h2>
                     </a>
                 </li>
             </ul>   
             <div class="topmenu">
                 <ul class="sub_topmenu">
                     <li>
-                        <a href="subindex.html">구독서비스</a>
+                        <a href="#">구독서비스</a>
                     </li>
                     <li>
                         <a href="#">주류정보</a>
@@ -43,7 +41,6 @@
             </div>
         </ul>
     </header>
-
     <div class="slide">
         <div class="imgslide">
             <a href="#">
@@ -60,54 +57,45 @@
             </a>
         </div>
     </div>
-    <!-- 이미지 슬라이드 -->
-
+   
     <div class="contents">
-        <li class="active">
-            <span>&nbsp;</span>
-            <a href="#"> &nbsp;&nbsp;<b>공지사항</b></a>
-            <div class="notice">
-                <ul>
-                    <li><a href="#">&nbsp; 홈페이지 새단장 안내
-                        <span>2022.03.23</span>
-                    </a></li>
-                    <li><a href="#">&nbsp; 새로운 전통주가 추가되었습니다. 
-                        <span>2022.03.23</span>
-                    </a></li>
-                    <li><a href="#">&nbsp; 후기 이벤트를 진행합니다.
-                        <span>2022.03.12</span>
-                    </a></li> 
-                    <li><a href="#">&nbsp; 장기 구독자 할인서비스 안내입니다.
-                        <span>2022.03.11</span>
-                    </a></li>
-                    <li><a href="#">&nbsp; 3월의 술 소개입니다.
-                        <span>2022.03.01</span>
-                    </a></li>
-                </ul>
+        <div class="intro">
+            <div>한 달을 특별하게 해주는</div>
+            <div>가장 편리한 방법</div>
+            <button type="button" class="btn">
+                    <a href="#" onclick="window.open('subscribe.html','구독하기','resizable=no scrollbars=yes width=800 height=700 top=0,left=0')"><span>구독하기</span></a>
+            </button>
+            <div class="bold small-font">
+                <span class="primary">월 / 
+                </span>39,000원</div>
+        </div> 
+        <div class="key-points">
+            <div class="primarybold">술에 진심인 소믈리에 픽
             </div>
-        </li>
-        <li class="active2">
-            <span>&nbsp;</span>
-            <a href="#"> &nbsp;&nbsp;<b>후기</b></a>
-            <div class="notice">
-                
-                <ul>
-                    <div class="imgslide2">
-                        <a href="#">
-                            <img src="images/h1.png" style="width:400px; height:160px" alt="이미지1">
-                        </a>
-                        <a href="#">
-                            <img src="images/h2.png" style="width:400px; height:160px" alt="이미지2">      
-                        </a>
-                        <a href="#">
-                            <img src="images/h3.png" style="width:400px; height:160px" alt="이미지3">            
-                        </a>
-                    </div>
-                </ul>
+            <div>전국의 다양한 술 중에서</div>
+            <div>‘인생술’만 골라 받기</div>
+        </div>
+        <div class="pass"></div>
+        <div class="key-points">
+            <div class="primarybold">가성비도 잊지 않았어요!</div>
+            <div>단품 구매보다</div>
+            <div>평균 12% 더 저렴한 술로 구성</div>
+        </div>
+        <div class="pass"></div>
+        <div class="intro">
+            <div>나만의 인생 술</div>
+            <div>찾을준비 되셨나요?</div>
+            <button type="button" class="btn">
+                <a href="#" onclick="window.open('subscribe.html','구독하기','resizable=no scrollbars=yes width=800 height=700 top=0,left=0')"><span>구독하기</span></a>
+            </button>
+            <div>
+                <span class="primary">월 / 
+                </span>39,000원
             </div>
-        </li>
-        
+        </div> 
     </div>
+
+
     <footer class="bt">
         <div class="btinfo">
             <ul class="info">
@@ -134,7 +122,7 @@
                 </li>
                 <li class="facebook">
                     <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
-                        <img src="images/facebook.png" alt="술담화 페이스북 채널">
+                        <img src="images/facebook.png" alt="페이스북 채널">
                     </a>
                 </li>
                 <li class="naver">
@@ -161,7 +149,7 @@
             <ul class="company">
                 <li class="companyinfo">
                     <span>
-                        <b>(주)저스트 드링크</b>
+                        <b>(주)드링크홈</b>
                     </span>
                     <span>대표: 김채록</span>
                     <span>정보보호 책임자: 김채록</span>
@@ -172,12 +160,11 @@
                     <span>이메일: rhffpa23@gmail.com</span>
                 </li>
                 <li class="information2">
-                    <span><b>저스트 드링크는 통신판매중개자로서 통신판매 당사자가 아니며,<br>판매자가 등록한 상품정보 및 거래에 대해 술담화는 책임을 지지 않습니다.</b>
+                    <span><b>드링크홈은 통신판매중개자로서 통신판매 당사자가 아니며,<br>판매자가 등록한 상품정보 및 거래에 대해 자사는 책임을 지지 않습니다.</b>
                     </span>
                 </li>
             </ul>
         </div>
     </footer>   
 </body>
-
 </html>

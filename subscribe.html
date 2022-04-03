@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/subscribe.css">
+    <title>구독서비스</title>
+</head>
+<body>
+    <header>
+        <div class="top">
+            <center><h2>DrinkHome 구독서비스</h2></center>
+        </div>
+    </header>
+    <div class="container"> 
+        <form> 
+            <fieldset> 
+                <legend>개인 정보</legend> 
+                <ul> 
+                    <li> 
+                        <label for="uname" class="title">이름</label> 
+                        <input type="text" id="uname" placeholder="이름을 입력하세요" required> 
+                    </li> 
+                    <li>
+                        <label for="tel1" class="title">연락처</label> 
+                        <input type="tel" id="tel1" placeholder="휴대폰 번호를 입력하세요"> 
+                    </li> 
+                </ul> 
+            </fieldset> 
+            <fieldset> 
+                <legend>배송지 정보</legend> 
+                <ul> 
+                    <li> 
+                        <label for="addr" class="title">주소</label> 
+                        <input type="text" size="69" id="addr" required> 
+                    </li> 
+
+                    <li> <label for="comment" class="title">메 모</label> 
+                        <textarea cols="70" rows="3" id="comment"></textarea> 
+                    </li> 
+                </ul> 
+            </fieldset> 
+            <fieldset> 
+                <legend>구독 단계</legend> 
+                <ul> 
+                    <li> 
+                        <label>
+                            <input type="checkbox">&nbsp;스탠더드 구독 서비스
+                        </label> 
+                        <label>
+                                <input type="number" value="0" min="0" max="12">개월 
+                        </label> 
+                    </li> 
+                    <li> 
+                        <label>
+                            <input type="checkbox">&nbsp;프리미엄 구독 서비스 
+                        </label> 
+                        <label>
+                            <input type="number" value="0" min="0" max="12">개월 
+                        </label> 
+                    </li> 
+                    <li> 
+                        <label>
+                        <input type="checkbox">&nbsp;슈퍼 프리미엄 구독 서비스 
+                        </label> 
+                        <label>
+                            <input type="number" value="0" min="0" max="12">개월 
+                        </label> 
+                    </li> 
+                </ul> 
+            </fieldset> 
+            <center>
+            <button type="submit" class="btn" onClick="window.close()">
+                <span>구독하기</span>
+            </button>
+            <button type="reset" class="btn">
+                <span>다시 작성</span>
+            </button>
+            </center>
+        </form> 
+    </div>
+
+</body>
+</html>
